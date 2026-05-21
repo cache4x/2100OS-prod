@@ -4,6 +4,7 @@
   "description": "2100OS Hermes Integration - Learning Loop and Auto-SKILL Generation",
   "main": ".hermes/learning/batch_analyzer.js",
   "scripts": {
+    "start": "node hermes.js",
     "test": "node -e \"console.log('Hermes learning loop ready')\"",
     "analyze": "node .hermes/learning/batch_analyzer.js",
     "promote": "node -e \"require('./.hermes/learning/batch_analyzer.js').startSkillPromotionScheduler()\"",
