@@ -1,8 +1,10 @@
-# 2100OS - Sistema de Automação Inteligente
+# [SISTEMA] - Sistema de Automação Inteligente
 
-## 🎯 Sobre o 2100OS
+> **IMPORTANTE:** Este é um template. Personalize substituindo `[SISTEMA]` pelo nome do seu sistema e `[EMPRESA]` pelo nome da sua empresa.
 
-O 2100OS é um sistema operacional de automação inteligente que transforma como empresas interagem com seus processos, documentos e equipes. Aproveitando IA avançada e automação inteligente, o 2100OS elimina tarefas repetitivas e acelera a tomada de decisões.
+## 🎯 Sobre o [SISTEMA]
+
+O [SISTEMA] é um sistema operacional de automação inteligente que transforma como empresas interagem com seus processos, documentos e equipes. Aproveitando IA avançada e automação inteligente, o [SISTEMA] elimina tarefas repetitivas e acelera a tomada de decisões.
 
 ## ✨ Funcionalidades Principais
 
@@ -28,8 +30,8 @@ O 2100OS é um sistema operacional de automação inteligente que transforma com
 
 ```bash
 # Clonar repositório
-git clone https://github.com/cache4x/2100OS-prod.git
-cd 2100OS-prod
+git clone [URL_DO_REPOSITORIO_DO_CLIENTE]
+cd [NOME_DO_REPOSITORIO]
 
 # Instalar dependências
 npm install
@@ -59,7 +61,7 @@ OPENAI_API_KEY=sua_chave_aqui
 
 ### Via Bot Telegram
 
-1. Inicie o bot no Telegram: `@seu_bot_2100os`
+1. Inicie o bot no Telegram: `@seu_bot_[SISTEMA]`
 2. Comandos principais:
    - `/start` - Iniciar sessão
    - `/help` - Ver ajuda
@@ -90,8 +92,8 @@ Acesse `http://localhost:3000` para visualizar o dashboard de controle.
 ## 📞 Suporte e Documentação
 
 - 📖 [Documentação Completa](docs/)
-- 💬 [Comunidade Telegram](https://t.me/seu_comunidade)
-- 📧 [Email de Suporte](mailto:suporte@2100os.com)
+- 💬 [Comunidade Telegram]([URL_COMUNIDADE_TELEGRAM])
+- 📧 [Email de Suporte](mailto:suporte@[EMPRESA].com)
 
 ## 🔧 Requisitos de Sistema
 
@@ -106,7 +108,7 @@ Acesse `http://localhost:3000` para visualizar o dashboard de controle.
 - **Professional**: $99/mês para pequenas equipes
 - **Enterprise**: Sob consulta
 
-Para mais informações, visite [nosso site](https://2100os.com).
+Para mais informações, visite [nosso site]([URL_SITE_EMPRESA]).
 
 ## 🔄 Atualizações
 
@@ -116,14 +118,14 @@ O sistema atualiza automaticamente. Para ver novidades:
 
 ## 📄 Termos de Uso
 
-Ao instalar o 2100OS, você concorda com nossos termos de serviço e política de privacidade.
+Ao instalar o [SISTEMA], você concorda com nossos termos de serviço e política de privacidade.
 
 ## 🏢 Sobre Nós
 
-O 2100OS é desenvolvido por uma equipe apaixonada por automação e inteligência artificial, com o objetivo de transformar como empresas operam.
+O [SISTEMA] é desenvolvido por [EMPRESA], com o objetivo de transformar como empresas operam através de automação e inteligência artificial.
 
 ---
 
 **Versão**: 1.0.0  
 **Última atualização**: 2026  
-**Copyright**: © 2026 2100OS. Todos os direitos reservados.
+**Copyright**: © 2026 [EMPRESA]. Todos os direitos reservados.
