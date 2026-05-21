@@ -1,0 +1,29 @@
+{
+  "name": "2100os-hermes",
+  "version": "2.0.0",
+  "description": "2100OS Hermes Integration - Learning Loop and Auto-SKILL Generation",
+  "main": ".hermes/learning/batch_analyzer.js",
+  "scripts": {
+    "test": "node -e \"console.log('Hermes learning loop ready')\"",
+    "analyze": "node .hermes/learning/batch_analyzer.js",
+    "promote": "node -e \"require('./.hermes/learning/batch_analyzer.js').startSkillPromotionScheduler()\"",
+    "build": "bash scripts/build.sh",
+    "release": "npm run build"
+  },
+  "keywords": [
+    "learning",
+    "automation",
+    "pattern-detection",
+    "skills"
+  ],
+  "author": "2100OS",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^9.6.0",
+    "js-yaml": "^4.1.1",
+    "node-cron": "^3.0.3",
+    "openai": "^4.73.0",
+    "sqlite-vec": "^0.1.9",
+    "telegraf": "^4.16.3"
+  }
+}
