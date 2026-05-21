@@ -1,0 +1,135 @@
+/**
+ * Design Tokens — [NOME DA EMPRESA/CLIENTE]
+ * Template para personalização com identidade visual do cliente
+ *
+ * INSTRUÇÕES:
+ * 1. Substitua [COR] pelos valores hexadecimais da marca
+ * 2. Ajuste fontes conforme identidade do cliente
+ * 3. Mantenha a estrutura de variáveis para compatibilidade
+ */
+
+:root {
+  /* === CORES === */
+  /* Substitua [COR] pelos valores hexadecimais da marca do cliente */
+
+  /* Primárias */
+  --color-bg-primary: [COR_FUNDO_PRINCIPAL];      /* Ex: #F8F9FA */
+  --color-bg-card: [COR_FUNDO_CARD];             /* Ex: #FFFFFF */
+  --color-accent: [COR_DESTAQUE];                 /* Ex: #2563EB */
+  --color-accent-hover: [COR_DESTAQUE_HOVER];     /* Ex: #1D4ED8 */
+  --color-accent-disabled: [COR_DESTAQUE_DESAB];  /* Ex: #9CA3AF */
+
+  /* Texto */
+  --color-text-primary: [COR_TEXTO_PRINCIPAL];    /* Ex: #111827 */
+  --color-text-secondary: [COR_TEXTO_SECUNDARIO]; /* Ex: #6B7280 */
+  --color-text-tertiary: [COR_TEXTO_TERCIARIO];   /* Ex: #9CA3AF */
+  --color-text-inverted: [COR_TEXTO_INVERTIDO];   /* Ex: #FFFFFF */
+
+  /* Bordas */
+  --color-border: [COR_BORDA];                    /* Ex: #E5E7EB */
+  --color-border-focus: [COR_BORDA_FOCO];        /* Ex: #2563EB */
+
+  /* Semânticas */
+  --color-success: [COR_SUCESSO];                 /* Ex: #10B981 */
+  --color-warning: [COR_ATENCAO];                 /* Ex: #F59E0B */
+  --color-error: [COR_ERRO];                      /* Ex: #EF4444 */
+  --color-info: [COR_INFO];                       /* Ex: #3B82F6 */
+
+  /* === TIPOGRAFIA === */
+  /* Substitua [FONTE] pelas fontes da marca do cliente */
+
+  --font-sans: '[NOME_FONTE_PRINCIPAL]', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: '[NOME_FONTE_MONO]', 'SF Mono', 'Roboto Mono', monospace;
+
+  /* Escala de tamanhos - ajuste conforme necessário */
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+  --text-4xl: 36px;
+  --text-5xl: 48px;
+
+  /* Pesos das fontes */
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* === SPACING === */
+  /* Escala baseada em 4px - pode ser ajustada */
+
+  --space-0: 0;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+
+  /* === BORDER RADIUS === */
+  /* Ajuste conforme o estilo da marca */
+
+  --radius-none: 0;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-pill: 999px;
+
+  /* === SOMBRAS === */
+  /* Ajuste intensidade e cor conforme preferência da marca */
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.12);
+  --shadow-focus: 0 0 0 3px rgba([VALOR_RGB_COR_DESTAQUE], 0.1);
+
+  /* === Z-INDEX === */
+  /* Camadas de interface - geralmente não precisa alterar */
+
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-fixed: 300;
+  --z-modal-backdrop: 400;
+  --z-modal: 500;
+  --z-popover: 600;
+  --z-tooltip: 700;
+}
+
+/* Dark mode tokens (opcional) */
+/* Se o cliente não usar dark mode, pode remover este bloco */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg-primary: [COR_FUNDO_PRINCIPAL_DARK];
+    --color-bg-card: [COR_FUNDO_CARD_DARK];
+    --color-border: [COR_BORDA_DARK];
+    --color-text-primary: [COR_TEXTO_PRINCIPAL_DARK];
+    --color-text-secondary: [COR_TEXTO_SECUNDARIO_DARK];
+  }
+}
+
+/**
+ * EXEMPLO DE PREENCHIMENTO:
+ *
+ * Para uma marca com:
+ * - Azul principal: #0055AA
+ * - Fonte: Poppins
+ * - Sem dark mode
+ *
+ * Ficaria assim:
+ *
+ * :root {
+ *   --color-accent: #0055AA;
+ *   --color-accent-hover: #004488;
+ *   --font-sans: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+ *   ... (restante dos valores)
+ * }
+ */
