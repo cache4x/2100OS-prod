@@ -1,12 +1,14 @@
-# 2100OS Hermes v2.0
+# [SISTEMA] v[VERSAO]
 
 **Sistema de Aprendizado Contínuo com Automação Inteligente**
+
+> **Template para customização.** Substitua os campos [ENTRE_COLCHETES] pelas informações do seu sistema.
 
 ---
 
 ## 🎯 O Que É
 
-O 2100OS Hermes é um sistema que **aprende com o uso** e **cria automações automaticamente**:
+O [SISTEMA] é um sistema que **aprende com o uso** e **cria automações automaticamente**:
 
 - 🔍 Detecta padrões de uso repetitivos
 - 🤖 Gera habilidades (skills) automaticamente
@@ -30,8 +32,8 @@ O 2100OS Hermes é um sistema que **aprende com o uso** e **cria automações au
 ### 1. Descompactar
 
 ```bash
-tar -xzf 2100os-hermes-2.0.0.tar.gz
-cd 2100os-hermes-2.0.0
+tar -xzf [NOME_DO_ARQUIVO].tar.gz
+cd [NOME_DA_PASTA]
 ```
 
 ### 2. Executar Instalador
@@ -92,7 +94,7 @@ Depois de configurado, use estes comandos no Telegram:
 ## 📁 Estrutura do Sistema
 
 ```
-2100os-hermes/
+[NOME_DO_SISTEMA]/
 ├── .hermes/
 │   ├── learning/        # Detecção de padrões
 │   ├── embeddings/      # Busca semântica
@@ -150,10 +152,10 @@ npm install
 
 ## 📞 Suporte
 
-- 📧 Email: [seu email]
-- 📱 WhatsApp: [seu número]
-- 📚 Documentação: [link da wiki]
+- 📧 Email: [[EMAIL_SUPORTE]]
+- 📱 WhatsApp: [[WHATSAPP_SUPORTE]]
+- 📚 Documentação: [[URL_DOCUMENTACAO]]
 
 ---
 
-**Versão:** 2.0.0 | **Licença:** Proprietária
+**Versão:** [VERSAO] | **Licença:** [TIPO_DE_LICENCA]
