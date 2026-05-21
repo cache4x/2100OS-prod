@@ -1,0 +1,62 @@
+# 2100OS v3.0 - Hermes Configuration para Cliente
+# Configure os caminhos conforme instalação do cliente
+
+system:
+  name: "2100OS"
+  version: "3.0.0"
+  edition: "Hermes-Powered"
+  environment: "production"
+
+# Caminhos para os arquivos principais - AJUSTAR PARA CADA CLIENTE
+paths:
+  soul: "[CAMINHO_INSTALACAO]/2100OS/SOUL.md"
+  memory: "[CAMINHO_INSTALACAO]/2100OS/MEMORY.md"
+  state_db: "[CAMINHO_INSTALACAO]/.hermes/state.db"
+  gsd_db: "[CAMINHO_INSTALACAO]/.gsd/gsd.db"
+
+# Sincronização entre bancos
+sync:
+  enabled: true
+  interval_seconds: 300  # 5 minutos
+  bidirectional: true
+
+# Configuração de memória
+memory:
+  retention_days:
+    user: -1  # permanente
+    feedback: 180
+    project: 90
+    reference: -1  # permanente
+
+  auto_capture: true
+  max_memories_per_session: 50
+
+# Configuração de embeddings (quando implementado)
+embeddings:
+  enabled: true
+  model: "text-embedding-3-small"
+  dimension: 1536
+  similarity_threshold: 0.75
+
+# Skills auto-geradas
+skills:
+  auto_generate: false
+  validation_required: true
+  success_threshold: 0.8
+
+# Gateway Telegram - CONFIGURAR PARA CADA CLIENTE
+telegram:
+  enabled: false  # Ativar quando cliente configurar bot
+  bot_token_env: "TELEGRAM_BOT_TOKEN"
+  user_id_env: "TELEGRAM_USER_ID"
+
+# Logging
+logging:
+  level: "INFO"
+  file: "[CAMINHO_INSTALACAO]/.hermes/hermes.log"
+
+# INSTRUÇÕES DE INSTALAÇÃO PARA CLIENTE:
+# 1. Copiar este arquivo para config.yaml
+# 2. Substituir [CAMINHO_INSTALACAO] pelo caminho real onde o 2100OS foi instalado
+# 3. Configurar variáveis de ambiente para Telegram se necessário
+# 4. Ajustar paths conforme estrutura de pastas do cliente
