@@ -1,14 +1,14 @@
-# [SISTEMA] v[VERSAO]
+# 2100OS v[VERSAO]
 
 **Sistema de Aprendizado Contínuo com Automação Inteligente**
 
-> **Template para customização.** Substitua os campos [ENTRE_COLCHETES] pelas informações do seu sistema.
+> **Template para customização para clientes.** Substitua os campos [ENTRE_COLCHETES] pelas informações da empresa do cliente.
 
 ---
 
 ## 🎯 O Que É
 
-O [SISTEMA] é um sistema que **aprende com o uso** e **cria automações automaticamente**:
+O 2100OS é um sistema que **aprende com o uso** e **cria automações automaticamente**:
 
 - 🔍 Detecta padrões de uso repetitivos
 - 🤖 Gera habilidades (skills) automaticamente
@@ -32,8 +32,8 @@ O [SISTEMA] é um sistema que **aprende com o uso** e **cria automações automa
 ### 1. Descompactar
 
 ```bash
-tar -xzf [NOME_DO_ARQUIVO].tar.gz
-cd [NOME_DA_PASTA]
+tar -xzf 2100os-[VERSAO].tar.gz
+cd 2100os-[VERSAO]
 ```
 
 ### 2. Executar Instalador
@@ -94,7 +94,7 @@ Depois de configurado, use estes comandos no Telegram:
 ## 📁 Estrutura do Sistema
 
 ```
-[NOME_DO_SISTEMA]/
+2100os-[VERSAO]/
 ├── .hermes/
 │   ├── learning/        # Detecção de padrões
 │   ├── embeddings/      # Busca semântica

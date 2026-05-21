@@ -1,10 +1,10 @@
-# [SISTEMA] - Sistema de Automação Inteligente
+# 2100OS - Sistema de Automação Inteligente
 
-> **IMPORTANTE:** Este é um template. Personalize substituindo `[SISTEMA]` pelo nome do seu sistema e `[EMPRESA]` pelo nome da sua empresa.
+> **IMPORTANTE:** Este é um template para instalação em máquinas de clientes. Personalize substituindo `[EMPRESA]` pelo nome da empresa do cliente.
 
-## 🎯 Sobre o [SISTEMA]
+## 🎯 Sobre o 2100OS
 
-O [SISTEMA] é um sistema operacional de automação inteligente que transforma como empresas interagem com seus processos, documentos e equipes. Aproveitando IA avançada e automação inteligente, o [SISTEMA] elimina tarefas repetitivas e acelera a tomada de decisões.
+O 2100OS é um sistema operacional de automação inteligente que transforma como empresas interagem com seus processos, documentos e equipes. Aproveitando IA avançada e automação inteligente, o 2100OS elimina tarefas repetitivas e acelera a tomada de decisões.
 
 ## ✨ Funcionalidades Principais
 
@@ -30,8 +30,8 @@ O [SISTEMA] é um sistema operacional de automação inteligente que transforma 
 
 ```bash
 # Clonar repositório
-git clone [URL_DO_REPOSITORIO_DO_CLIENTE]
-cd [NOME_DO_REPOSITORIO]
+git clone [URL_DO_REPOSITORIO_CLIENTE]
+cd 2100OS
 
 # Instalar dependências
 npm install
@@ -61,7 +61,7 @@ OPENAI_API_KEY=sua_chave_aqui
 
 ### Via Bot Telegram
 
-1. Inicie o bot no Telegram: `@seu_bot_[SISTEMA]`
+1. Inicie o bot no Telegram: `@seu_bot_2100OS`
 2. Comandos principais:
    - `/start` - Iniciar sessão
    - `/help` - Ver ajuda
@@ -118,11 +118,11 @@ O sistema atualiza automaticamente. Para ver novidades:
 
 ## 📄 Termos de Uso
 
-Ao instalar o [SISTEMA], você concorda com nossos termos de serviço e política de privacidade.
+Ao instalar o 2100OS, você concorda com nossos termos de serviço e política de privacidade.
 
 ## 🏢 Sobre Nós
 
-O [SISTEMA] é desenvolvido por [EMPRESA], com o objetivo de transformar como empresas operam através de automação e inteligência artificial.
+O 2100OS é desenvolvido por [EMPRESA], com o objetivo de transformar como empresas operam através de automação e inteligência artificial.
 
 ---
 
